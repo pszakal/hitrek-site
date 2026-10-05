@@ -5,22 +5,12 @@ The HiTrek app repo stays private — this repo only contains HTML/CSS.
 
 ## App Store URL
 
-After Pages is live, use:
-
-```text
-https://<github-user>.github.io/hitrek-site/privacy/
+```
+https://pszakal.github.io/hitrek-site/privacy/
 ```
 
-Or, if you use a custom domain / user site (`username.github.io`):
+Use relative asset links (not `/styles.css`) so GitHub project Pages under `/hitrek-site/` works.
 
-```text
-https://hitreklabs.com/privacy/
-```
-
-## Before you publish
-
-1. Replace contact details if needed (search for `privacy@hitreklabs.com` and `HiTrek Labs` in `privacy/index.html`).
-2. Confirm Mixpanel residency (site text assumes EU endpoint — matches `hi-trek` analytics defaults).
 
 ## Deploy (GitHub Pages)
 
